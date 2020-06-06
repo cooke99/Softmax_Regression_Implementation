@@ -1,5 +1,5 @@
 # Softmax_Regression_Implementation
-This repo contains a custom implementation of SoftmaxRegression with Batch Gradient Descent and early stopping using just NumPy.
+This repo contains a custom implementation of a Softmax Regression classifier with Batch Gradient Descent and early stopping using just NumPy.
 
 ## Files in this repo:
 
