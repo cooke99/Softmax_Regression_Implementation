@@ -3,7 +3,7 @@ This repo contains a custom implementation of SoftmaxRegression with Batch Gradi
 
 ## Files in this repo:
 
-`Softmax_reg_implementation.ipynb` - Notebook detailing the implementation and analysis of the model, including a comparison with Scikit-learn's implementation of Softmax Regression.
+`Softmax_reg_implementation.ipynb` - Notebook detailing the implementation and analysis of the model, including a comparison with Scikit-learn's implementation of Softmax Regression and a demonstration of its use.
 
 `SoftmaxRegression.py` - Python file containing only the class so that it can be imported and used.
 
@@ -25,6 +25,8 @@ The SoftmaxRegression class has 2 methods available to the user: `fit` and `pred
 
 - X and y are the training data provided to the model. 
 - `iters` specifies the maximum number of iterations to run Gradient Descent.
+
+**Note:** It's necessary to scale the features of your data before using this model or it will have difficulties converging.
 
 `soft_reg.predict(X, y, one_hot = False, predict_proba = False, add_bias = True)`
 
