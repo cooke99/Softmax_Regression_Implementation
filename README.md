@@ -28,7 +28,7 @@ The SoftmaxRegression class has 2 methods available to the user: `fit` and `pred
 
 **Note:** It's necessary to scale the features of your data before using this model or it will have difficulties converging.
 
-`soft_reg.predict(X, y, one_hot = False, predict_proba = False, add_bias = True)`
+`soft_reg.predict(X, one_hot = False, predict_proba = False, add_bias = True)`
 
 - X is the test data to make predictions on.
 - `one_hot` is a flag that determines whether the predictions are OneHotEncoded or not. If set to False, the model returns the predicted class index (e.g. for 3 classes it would return one of k = [0,1,2]).
